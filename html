@@ -23,11 +23,45 @@ body{
   grid-template-rows: 200 px 1fr 1f 50px;
   gap: 15px
 }
-  
- 
+  div{
+    align-content: center;
+  }
+   .title{
+     grid-row-start: 1;
+     grid-row-end:2;
+     grid-column-start: 1;
+     grid-column-end: 4;
+   }
 
+   .picture{
+     grid-row-start: 3;
+     grid-row-end: 4;
+     grid-column-start: 1;
+     grid-column-end: 2;
+   }
 
+   .content{
+     grid-row-start: 2;
+     grid-row-end: 4;
+     grid-column-start: 2;
+     grid-column-end:4;
+     background:#5588dd;
+     border:2px white solid;
+   }
+   .footer {
+     grid-row-start: 4;
+     grid-row-end: 5;
+     grid-column-start: 1;
+     grid-column-end: 4;
+   }
 
+   h1{
+     font-size: 80px
+   }
+
+   p{
+     border: 2px dashed black;
+   }
 
    
    </style>
